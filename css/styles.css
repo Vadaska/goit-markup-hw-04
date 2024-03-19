@@ -380,10 +380,16 @@ body {
 }
 
 .portfolio-list {
+  /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+  margin-bottom: 0;
+}
+.portfolio-list:hover,
+.portfolio-list:active {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-bottom: 0;
 }
 
 .portfolio-list-overlay {
@@ -468,15 +474,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin-top: 16px;
   max-width: 264px;
 }
 
 .footer-flex {
   display: flex;
-  justify-content: start;
   align-items: baseline;
-  gap: 120px;
 }
 .social-media-title {
   font-weight: 500;
